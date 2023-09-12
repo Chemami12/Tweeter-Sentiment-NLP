@@ -1,1 +1,1 @@
-![Alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Ftelanganatoday.com%2Fapple-google-app-review-teams-scrutinise-musks-twitter&psig=AOvVaw09goIK5zAFKFiuVGaeiZdm&ust=1694599084374000&source=images&cd=vfe&opi=89978449&ved=0CA4QjRxqFwoTCKCd1-DnpIEDFQAAAAAdAAAAABAD)
+![Alt text](https://cdn.telanganatoday.com/wp-content/uploads/2022/11/Apple-Google-app-review-teams-scrutinise-Musks-Twitter.jpg)
