@@ -2,7 +2,7 @@
 # **TWEETER SENTIMENT**
 
 ![Apple-Google-app-review-teams-scrutinise-Musks-Twitter](https://github.com/Chemami12/Tweeter-Sentiment-NLP/assets/132896105/9e66c61b-6f7c-40c1-9add-e5f911bf6586)
-**TABLE OF CONTENT
+
  
 # **OVERVIEW**
 In our modern, technology-driven society, social media platforms, especially Twitter, have become a central hub for expressing thoughts, emotions, and viewpoints. Fortunately, advancements in technology have provided us with the tools to analyze and assess these opinions. Through the application of machine learning and natural language processing, we have a method to examine a collection of text and determine its sentiment. According to a report from statista.com, as of December 2022, Twitter boasted an impressive user base of over 368 million monthly active users worldwide. Understanding how a consumer perceives a brand can offer valuable insight into their buying habits, which in return, can significantly impact the financial success of the company behind the brand.            The project aims to build a model that rates the sentiment of tweets based on its content for Apple and Google products .
