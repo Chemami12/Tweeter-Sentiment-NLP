@@ -11,15 +11,14 @@ The current systems that the platform employs does not provide rating of the twe
 # **OBJECTIVE**
 To build a model that can rate sentiment of a tweet based on its content of Apple and Google products.
 # **DATA**
-# 
 The dataset was sourced from CrowdFlower via https://data.world/crowdflower/brands-and-product-emotionsis from the year 2013 and has 8,721 tweets. There are three features in this dataset:
-# 
 i.   Tweet text
+
 ii.  Where the emotion in the tweet is directed at.
+
 iii. What emotion is directed at a brand or product.
 # 
 # **DATA PREPARATION**
-# 
 To make it easier to read and analyse the data, we rename the columns and simplify the sentiment column. Removing duplicates, I can't tell sentiment and missing values. Also to ensure that the Product column is correctly aligned to the Tweet column based on its content.                                         Data preprocessing involves the systematic cleaning and transformation of data to ensure it is in a suitable format for modeling. This essential step simplifies the data, facilitating more effective analysis and the extraction of valuable insights. During preprocessing, tasks include eliminating hashtags, retweets, hyperlinks, punctuation, and non-letter or non-whitespace characters from the text data. It also includes removing stop-words, tokenization, stemming, lemmatization, scalling, encoding and converting data. To vectorize the data set for modeling, Sci-Kit Learn’s Term Frequency, Inverse Document Frequency (TF-IDF) and CountVectorizer packages was used.
 
 # **MODELING**
