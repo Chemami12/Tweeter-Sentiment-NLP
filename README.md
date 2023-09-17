@@ -34,9 +34,7 @@ ChemamiEnt would advise the stakeholder to focus their efforts on engaging with 
 #
 ├── Data
 ├── Images
-├── Movie Recommendation Systems.ipynb
-├── notebook.pdf
 ├── presentation.pdf
 ├── README.MD
-└── 
+└── ipynb file
 
