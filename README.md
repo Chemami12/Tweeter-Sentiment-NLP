@@ -31,26 +31,17 @@
 # 
 # **Data Preparation**
 # 
-# To make it easier to read and analyse the data, we rename the columns and simplify the sentiment column. Removing duplicates, I can't tell sentiment and missing values. Also to ensure that the Product column is correctly aligned to the Tweet column based on its content
-
-# 
+# To make it easier to read and analyse the data, we rename the columns and simplify the sentiment column. Removing duplicates, I can't tell sentiment and missing values. Also to ensure that the Product column is correctly aligned to the Tweet column based on its content. 
 # Data preprocessing involves the systematic cleaning and transformation of data to ensure it is in a suitable format for modeling. This essential step simplifies the data, facilitating more effective analysis and the extraction of valuable insights. During preprocessing, tasks include eliminating hashtags, retweets, hyperlinks, punctuation, and non-letter or non-whitespace characters from the text data. It also includes removing stop-words, tokenization, stemming, lemmatization, scalling, encoding and converting data. To vectorize the data set for modeling, Sci-Kit Learn’s Term Frequency, Inverse Document Frequency (TF-IDF) and CountVectorizer packages was used.
 
-#
 # Modeling
 # For modeling techniques, we Multinomial Naïve Bayes(good for text classification) as the baseline model, Random Forest(more advanced algorithm) as the stepup model, Support Vector Machine (SVM) and SVM with hyperparameter tuning for improved performance.
-# **CONCLUSION**
-# 
-# 
+# **CONCLUSION** 
 # The goal of this project was to build a model that could rate the sentiment of tweets based on its content for Apple and Google products . In order to do so, several multiple classification models were tested and identified. From the results of the various models applied for analysis, we can conclude that the SVM model with hyperparameter tuning, lead to performance improvement.The model achieved the highest accuracy of 87%  and f1-score of 93% that takes into account both precision and recall among the models tested. It performed well in identifying tweets with positive emotion but struggled with No emotion. This model will allow stakeholder to identify the priority users to target with (negative and neutral sentiment) feedback and target their ads accordingly.
 
-# %% [markdown]
 # **RECOMMENDATIONS**
-# 
 # ChemamiEnt would advise the stakeholder to focus their efforts on engaging with Twitter users who have expressed negative sentiment towards Apple and Google products. It's crucial to address any concerns or negative experiences these users may have had, as retaining existing customers is as vital as attracting new ones. 
-# 
 # Additionally, those with neutral views toward Apple and Google products should not be overlooked, as they represent a potential customer base that can be further cultivated and present an opportunity for growth, thus expanding the customer base.
-# 
 # The machine learning models employed in our sentiment analysis can benefit from ongoing refinement and optimization. Consistent updates, thorough model assessments, and active engagement with users allow maintainance of accuracy and applicability of our predictions.
 
 
